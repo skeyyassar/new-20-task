@@ -359,7 +359,7 @@
 
 
 
- input[type=text],
+ input[type=text],[type=email],
  select,
  textarea {
      width: 100%;
@@ -385,10 +385,6 @@
      border: none;
      border-radius: 4px;
      cursor: pointer;
- }
-
- input[type=submit]:hover {
-     background-color: yellowgreen;
  }
 
  input[type=submit]:hover {
